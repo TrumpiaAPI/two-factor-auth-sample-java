@@ -42,6 +42,9 @@ The user will receive a Javascript confirmation pop-up if:
 1. The verification is successful
 2. The verification fails
 
+# Before you begin #
+It is important to update the "user.properties" file with the Trumpia username and API key. Access the API key by logging into your account and going to Account -> API Settings.
+
 # Understanding Status Codes #
 Descriptions of the different status code(s) can be found within the [authentication status code documentation](http://trumpia.com/api/docs/rest/status-code/authentication.php). Common status codes for the authentication function:
 * **MRME0551:** Mobile number is blocked. *Resolution: Have the end user text HELP to the short code to remove the block and allow short code messaging.*
